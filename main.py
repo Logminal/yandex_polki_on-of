@@ -22,7 +22,7 @@ AUTH_COOKIES = f"Session_id={SESSION_ID}"
 def is_working_time():
     now = datetime.now().time()
     start_time = time(15, 0)  # 17:00
-    end_time = time(20, 0)  # 22:00
+    end_time = time(21, 0)  # 23:00
 
     return start_time <= now <= end_time
 
